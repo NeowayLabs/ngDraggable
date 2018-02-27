@@ -3,7 +3,7 @@
  * https://github.com/fatlinesofcode/ngDraggable
  */
 angular.module("ngDraggable", [])
-    .factory("ngDragHitTest", function($document, $window){
+    .factory("ngDragHitTest", ['$document', '$window', function($document, $window) {
 
 
         var sidesHitTests = {
@@ -65,7 +65,7 @@ angular.module("ngDraggable", [])
             return result;
         };
         return hitTest;
-    })
+    }])
     .service('ngDraggable', [function() {
 
 
