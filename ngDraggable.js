@@ -1,7 +1,7 @@
 /*
- *
  * https://github.com/fatlinesofcode/ngDraggable
  */
+import anguar from 'angular';
 angular.module("ngDraggable", [])
     .factory("ngDragHitTest", ['$document', '$window', function($document, $window) {
 
