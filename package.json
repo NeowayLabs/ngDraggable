@@ -1,0 +1,13 @@
+{
+  "name": "ngdraggable",
+  "version": "0.1.8",
+  "main": "ngDraggable.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeowayLabs/ngDraggable.git"
+  },
+  "peerDependencies": {
+    "angular": "1.x"
+  },
+  "license": "UNLICENSED"
+}
